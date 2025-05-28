@@ -23,8 +23,8 @@ console.log(`The percentage change is ${percentageChange}`);
 
 //a) there are 5 function calls in this file,
 /* these are the function calls Number(carPrice.replaceAll(",", ""));-- first function call
-is Number() and second one is replaceAll() both on line 4 and console.log() on line 10
-third function call is Number() and replaceAll() which are both on line 5
+is Number() and second one is replaceAll() both on line 4 
+third function call is Number() and replaceAll() which are both on line 5 and console.log() on line 10
 */
 //b) the error is coming from line 5. it is occurring due to a missing comma after the first double
 // quote marks
