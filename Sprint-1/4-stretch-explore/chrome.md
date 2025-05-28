@@ -16,3 +16,11 @@ Now try invoking the function `prompt` with a string input of `"What is your nam
 
 What effect does calling the `prompt` function have?
 What is the return value of `prompt`?
+
+<!---
+The alert function produces a pop window with the text passed in the function
+--->
+<!---
+The prompt function produces a text box that prompts a user to enter input
+The return value of prompt is undefined
+--->
