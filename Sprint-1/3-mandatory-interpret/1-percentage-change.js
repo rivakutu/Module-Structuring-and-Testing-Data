@@ -21,9 +21,9 @@ console.log(`The percentage change is ${percentageChange}`);
 
 // e) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
 
-//a) there are 4 function calls in this file,
+//a) there are 5 function calls in this file,
 /* these are the function calls Number(carPrice.replaceAll(",", ""));-- first function call
-is Number() and second one is replaceAll() both on line 4
+is Number() and second one is replaceAll() both on line 4 and console.log() on line 10
 third function call is Number() and replaceAll() which are both on line 5
 */
 //b) the error is coming from line 5. it is occurring due to a missing comma after the first double
