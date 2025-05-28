@@ -19,7 +19,7 @@ console.log(`The base part of ${filePath} is ${base}`);
 
 const dir = filePath;
 //this variable stores the extension- lastIndexOf finds the last occurence of a character and returns it
-//slice is using lastIndexOf to determine the starting point of extracting a substring
+//slice is using lastIndexOf to determine the starting point for extracting a substring
 const ext = filePath.slice(filePath.lastIndexOf(".") + 1);
 console.log(ext);
 
