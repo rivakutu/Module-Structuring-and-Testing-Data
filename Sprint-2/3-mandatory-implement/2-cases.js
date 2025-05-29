@@ -14,3 +14,8 @@
 // You will need to come up with an appropriate name for the function
 // Use the MDN string documentation to help you find a solution
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+
+function upper_snake_caser(str) {
+  return str.replace(/ /g, "_").toUpperCase();
+}
+console.log(upper_snake_caser("hi there my friend"));
