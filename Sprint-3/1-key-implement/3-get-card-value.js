@@ -8,7 +8,7 @@
 // write one test at a time, and make it pass, build your solution up methodically
 // just make one change at a time -- don't rush -- programmers are deep and careful thinkers
 function getCardValue(card) {
-  if (rank === "A") return 11;
+  if (rank === "A" || rank === "A♠") return 11;
   if (rank === "10" || rank === "J" || rank === "K" || rank === "Q") return 10;
   else return "Invalid card rank";
 }
