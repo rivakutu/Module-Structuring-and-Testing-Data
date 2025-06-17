@@ -10,12 +10,12 @@ function is16Digit(str) {
 }
 
 //check if there are at least 2 uniques digits
-function AtLeast2UniqueNumbers(number) {
+function hasAtLeast2UniqueNumbers(number) {
   const str = number.toString();
   return new Set(str).size >= 2;
 }
 
-function IsLastDigitDivisibleBy2(str) {
+function isLastDigitDivisibleBy2(str) {
   const lastDigit = str.charAt(str.length - 1);
   return Number(lastDigit) % 2 === 0;
 }
