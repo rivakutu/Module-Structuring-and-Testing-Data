@@ -1,10 +1,8 @@
 function isProperFraction(numerator, denominator) {
-  if (numerator < denominator) return true;
-  // add your completed function from key-implement here
-  if (numerator > denominator) return false;
-  if (Math.abs(numerator) < denominator) return true;
-  if (numerator === denominator) return false;
-  if (denominator === 0) return false;
+  if (denominator === 0) throw new Error("Denominator cannot be 0");
+  const absoluteNumerator = Math.abs(numerator);
+  const absoluteDenominator = Math.abs(denominator);
+  return absoluteNumerator < absoluteDenominator;
 }
 
 module.exports = isProperFraction;
