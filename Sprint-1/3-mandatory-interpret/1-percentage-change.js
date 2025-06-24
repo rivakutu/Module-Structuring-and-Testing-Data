@@ -14,6 +14,7 @@ console.log(`The percentage change is ${percentageChange}`);
 // a) How many function calls are there in this file? Write down all the lines where a function call is made
 // line 4 has a function call Number(carPrice.replaceAll(",", ""))
 //line 5 has a function call Number(priceAfterOneYear.replaceAll(",",""))
+//line 10 has a console.log(`The percentage change is ${percentageChange}`)
 
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
 //line 5 has a error syntaxerror-- we did not add a comma to indicate the second argument for the function. we can rectify by adding a comma
